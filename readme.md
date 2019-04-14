@@ -2,6 +2,9 @@ Emoncms is an open-source web application for processing, logging and visualisin
 temperature and other environmental data and is part of the [OpenEnergyMonitor project](
 http://openenergymonitor.org).
 
+Auth0 module has been developed by Carbon Co-op
+  https://carbon.coop/
+
 ## License
 This module is released under the GNU Affero General Public License
 

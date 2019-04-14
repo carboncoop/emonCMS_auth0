@@ -8,6 +8,9 @@
   Emoncms - open source energy visualisation
   Part of the OpenEnergyMonitor project:
   http://openenergymonitor.org
+ 
+  Auth0 module has been developed by Carbon Co-op
+  https://carbon.coop/
 
  */
 
