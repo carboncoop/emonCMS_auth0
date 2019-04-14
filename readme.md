@@ -5,11 +5,19 @@ http://openenergymonitor.org).
 Auth0 module has been developed by Carbon Co-op
   https://carbon.coop/
 
+# Auth0 Module
+Log into emonCMS using Auth0 (single sign platform)
+
 ## License
 This module is released under the GNU Affero General Public License
 
-##Installation
-install dependencies `composer install`
+## Installation
+Clone repository
+```
+git clone https://github.com/carboncoop/emonCMS_auth0 auth0
+```
+
+Install dependencies `composer install`
 
 in settings.php add configure your Auth0 credentials:
 ```$AUTH0_CLIENT_ID="the_client_id";
