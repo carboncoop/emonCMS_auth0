@@ -23,7 +23,11 @@ in settings.php add configure your Auth0 credentials:
 ```$AUTH0_CLIENT_ID="the_client_id";
 $AUTH0_DOMAIN="your_auth_domain";
 $AUTH0_CLIENT_SECRET="your_client_secret";
-$AUTH0_CALLBACK_URL="http://your_URL/"; // the rest of the URL is added by the Auth0 controller
+$AUTH0_CALLBACK_URL="https://your_emoncms_installation/"; // the rest of the URL is added by the Auth0 controller
 $AUTH0_AUDIENCE="";
 $AUTH0_STARTING_PAGE=""; // Page to redirect users after login
 ```
+In your Auth0 application add `https://your_emoncms_installation/auth0/callback` to your Allowed Callback URLs
+
+## How to use it
+To login visit `https://your_emoncms_installation/auth0/login`
